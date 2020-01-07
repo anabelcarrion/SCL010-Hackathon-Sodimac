@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import HomeOver from '../components/HomeOver';
-import { Container, Button } from 'reactstrap';
+import { Container} from 'reactstrap';
 import './Home.css';
-import { Link } from "react-router-dom";
 import Login from '../views/Login';
 
-const Home = (props) => {
+const Home = () => {
 
     const [loading, setLoading] = useState(true);
 
@@ -22,7 +21,7 @@ const Home = (props) => {
                     </Container>
                 :
                     <div className="options">
-                        <Login />
+                        <Login/>
                     </div>
             }
         </div>
