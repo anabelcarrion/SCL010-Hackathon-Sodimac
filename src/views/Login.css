@@ -41,5 +41,6 @@ button.btnSignIn {
 
 input {
     width: -webkit-fill-available;
+    margin: 1px
 }
 

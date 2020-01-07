@@ -1,6 +1,8 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 
+import CarouselOfImages from '../components/CarouselOfImages';
+import Cards from '../components/Cards';
 
 // vista incial, donde se va a crear el juego
 const PrincipalPage  = () => {
@@ -11,6 +13,12 @@ const PrincipalPage  = () => {
     <Link to="/Login">
             <button className="btnSignIn" >regresar</button>
     </Link>
+    <div class="col-md-10">
+    <CarouselOfImages/>
+    </div>
+    <div class="col-md-3">
+    <Cards/>
+    </div>
     </div>   
   );
 };
