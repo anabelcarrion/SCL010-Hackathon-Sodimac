@@ -18,7 +18,7 @@ const Map = (props) => {
       <Button color="danger" onClick={toggle}>{buttonLabel}</Button>
       <Modal isOpen={modal} modalTransition={{ timeout: 700 }} backdropTransition={{ timeout: 1300 }}
         toggle={toggle} className={className}>
-        <ModalHeader toggle={toggle}>Modal title</ModalHeader>
+        <ModalHeader toggle={toggle}>Ruta</ModalHeader>
         <ModalBody>
         Ingrese el numero de pasillo donde usted esta ubicado
         <input placeholder="numero de pasillo"></input>

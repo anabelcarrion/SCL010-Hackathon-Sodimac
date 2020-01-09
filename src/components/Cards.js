@@ -1,8 +1,10 @@
 import React  from 'react';
 import firebase from '../config/firebase'
+import './Cards.css';
 import Map from './Map';
 
-import {Card, CardImg, CardBody,CardTitle, CardSubtitle, Button} from 'reactstrap';
+
+import {Card, CardImg, CardBody,CardTitle, CardSubtitle} from 'reactstrap';
 
 const db = firebase.firestore();
 const data = db.collection('sodimac');
@@ -50,7 +52,7 @@ const Cards = (props) => {
    
       
   return productsList.length===0 ? <h1>Cargando Productos ...</h1> : (
-    <div>
+    <div className= "cards">
         {productsList.map(product => (
       <Card>
         <CardImg top width="100%" src={product.imagen} alt="Card image cap" />
