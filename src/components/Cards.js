@@ -1,16 +1,20 @@
-import React from 'react';
+import React  from 'react';
 import firebase from '../config/firebase'
+import Map from './Map';
 
-import {Card, CardImg, CardText, CardBody,CardTitle, CardSubtitle, Button} from 'reactstrap';
-
+import {Card, CardImg, CardBody,CardTitle, CardSubtitle, Button} from 'reactstrap';
 
 const db = firebase.firestore();
 const data = db.collection('sodimac');
 
+
+export const pathContext=React.createContext();
+
+
 //obtener datos de firebase  
 
 const retrieve = () => {
-
+    
     return new Promise((resolve, reject) => {
         data.get()
             .then(function (querySnapshot) {
@@ -36,11 +40,15 @@ const Cards = (props) => {
     //Hooks
     const [productsList, setproductsList] = React.useState([]);
 
-    //llamando al metodo obtener
-    retrieve().then(products => {
-        setproductsList(products);
-     })
 
+    React.useEffect(() => {
+        //llamando al metodo obtener
+        retrieve().then(products => {
+        setproductsList(products);
+     }) 
+      },[]);
+   
+      
   return productsList.length===0 ? <h1>Cargando Productos ...</h1> : (
     <div>
         {productsList.map(product => (
@@ -51,7 +59,7 @@ const Cards = (props) => {
           <CardTitle>Precio {product.precio}</CardTitle>
           <CardSubtitle>SKU {product.SKU}</CardSubtitle>
           <CardSubtitle>Pasillo {product.pasillo}</CardSubtitle>
-          <Button>Localizar</Button>
+          <Map/>
         </CardBody>
       </Card>
         ))}

@@ -16,7 +16,7 @@ const PrincipalPage  = () => {
     <div class="col-md-10">
     <CarouselOfImages/>
     </div>
-    <p>Algunos Descuentos para Ti</p>
+
     <div class="col-md-3">
     <Cards/>
     </div>
