@@ -2,24 +2,25 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import CarouselOfImages from '../components/CarouselOfImages';
 import Cards from '../components/Cards';
-import './PrincipalPage.css'
+import FooterNav from '../components/FooterNav';
 
 // vista incial, donde se va a crear el juego
 const PrincipalPage  = () => {
 
   return (
     <div id="outer-section">
-    <h1> estoy en la pagina principal</h1>
+    <h1>Página principal</h1>
     <Link to="/Login">
-            <button className="btnSignIn" >regresar</button>
+            <button className="btnSignIn" >Volver</button>
     </Link>
-    <div class="col-md-10">
+    <div className="col-md-10">
     <CarouselOfImages/>
     </div>
 
-    <div class="col-md-3">
+    <div className="col-md-3">
     <Cards/>
     </div>
+    <FooterNav />
     </div>   
   );
 };
