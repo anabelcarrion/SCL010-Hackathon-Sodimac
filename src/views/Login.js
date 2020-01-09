@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './Login.css'
-import firebase from '../config/firebase'
+
 
 const Login = () => {
     
