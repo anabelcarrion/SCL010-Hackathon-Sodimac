@@ -20,7 +20,7 @@ const retrieveRoute = (stringRuote) => {
         data.doc(stringRuote).get()
             .then(doc => {
               if (doc.data()===undefined){
-                alert ("Por favor ingrese el numero de su pasillo");
+                alert ("El producto se encuentra en el pasillo donde usted esta");
               }else{
                 resolve(doc.data().ruta) 
               }
@@ -61,15 +61,17 @@ const Map = (props) => {
         toggle={toggle} className={className}>
         <ModalHeader toggle={toggle}>Ruta</ModalHeader>
         <ModalBody>
-        Ingrese el numero de pasillo donde usted esta ubicado
-        <input id="from" value={origin}  onChange={e => setorigin(e.target.value)}  placeholder="numero de pasillo"></input>
+        En que pasillo usted se encuentra
+        <input id="from" placeholder="Ingrese numero de pasillo aqui" value={origin}  onChange={e => setorigin(e.target.value)}></input>
+        <br/>
         <Button color="primary" onClick={()=>{
             let routeId=""+origin+destination;
             retrieveRoute(routeId).then(route => {
               setroute(route);
                 })
           }}>Mostrar Ruta</Button>{' '}
-        <CardImg top width="100%" src={route} alt="Card image cap" />
+          <br/>
+        <CardImg top width="100%" src={route} alt="Card image cap"/>
         </ModalBody>
         <ModalFooter> 
           <Button color="secondary" onClick={toggle} >Cerrar</Button>
