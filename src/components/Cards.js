@@ -3,7 +3,6 @@ import firebase from '../config/firebase'
 import './Cards.css';
 import Map from './Map';
 
-
 import {Card, CardImg, CardBody,CardTitle, CardSubtitle} from 'reactstrap';
 
 const db = firebase.firestore();
@@ -61,7 +60,7 @@ const Cards = (props) => {
           <CardTitle>Precio {product.precio}</CardTitle>
           <CardSubtitle>SKU {product.SKU}</CardSubtitle>
           <CardSubtitle>Pasillo {product.pasillo}</CardSubtitle>
-          <Map/>
+          <Map destination={product.pasillo}/>
         </CardBody>
       </Card>
         ))}
