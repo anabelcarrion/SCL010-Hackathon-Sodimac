@@ -8,6 +8,7 @@ import Login from './views/Login';
 import SignIn from './views/SignIn';
 import PrincipalPage from './views/PrincipalPage';
 import Home from './containers/Home';
+import PasswordLost from './views/PasswordLost';
 
 const App=()=> {
 
@@ -28,6 +29,9 @@ const App=()=> {
               <Route
               path="/SignIn"
               component={SignIn} />
+              <Route
+              path="/PasswordLost"
+              component={PasswordLost} />
               <Route
               path="/PrincipalPage"
               component={PrincipalPage} />
