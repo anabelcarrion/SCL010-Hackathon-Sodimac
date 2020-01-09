@@ -1,10 +1,20 @@
-
-
 .Login {
-    display: contents;
+    margin: 10%;
+    margin-top: -5% !important;
+}
+
+.isotipoSodimac {
+    width: 30%;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40%;
+    margin-bottom: 5%;
 }
 
 .titleLogin {
+    display: inline;
     position: static;
     margin-bottom: 10%;
     margin-top: 60%;
@@ -13,10 +23,10 @@
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    color: #2363B2;
+    color: black;
     text-align: center;
-    margin-left: 10%;
-    -webkit-text-stroke-width: thin;
+    font-size: 130% !important;
+    font-weight: bold !important;
 }
 
 button.btnLogin {
@@ -44,11 +54,15 @@ button.btnSignIn {
 
 input {
     width: -webkit-fill-available;
-    margin: 1px
+    margin: 3% !important;
+    border:none;
+    border-bottom:1px solid #888;
+    margin-top: 5% !important;
 }
 
 .passwordLink {
     text-align: center;
+    margin-top: 5%;
 }
 
 .omitirLink {

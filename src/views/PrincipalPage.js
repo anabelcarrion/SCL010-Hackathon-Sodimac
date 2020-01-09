@@ -1,8 +1,8 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-
 import CarouselOfImages from '../components/CarouselOfImages';
 import Cards from '../components/Cards';
+import './PrincipalPage.css'
 
 // vista incial, donde se va a crear el juego
 const PrincipalPage  = () => {

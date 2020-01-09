@@ -1,27 +1,38 @@
 
-
 .signIn {
-    display: contents;
+    margin: 10%;
+    margin-top: 25%;
 }
 
 .titleSignIn {
     position: static;
     margin-bottom: 10%;
-    margin-top: 60%;
+    margin-top: 30%;
     margin-left: -15%;
+    display: inline;
 }
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    color: #2363B2;
+    color: black;
     text-align: center;
-    margin-left: 10%;
-    -webkit-text-stroke-width: thin;
-    font-size: 1.5rem;
+    font-size: 150% !important;
+    font-weight: bold !important;
+    text-align: center;
 }
 
 p {
     text-align: center;
+    font-size: 85% !important;
+    margin-top: 3% !important;
+}
+
+.checkboxDiv {
+    display: flex;
+}
+
+p.checkboxDiv {
+   background-color: red;
 }
 
 button.btnCreateAccount {
