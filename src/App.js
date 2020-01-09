@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
-import firebase from './config/firebase'
+
 
 //importando las vistas
 import Login from './views/Login';
@@ -12,16 +12,8 @@ import PasswordLost from './views/PasswordLost';
 
 const App=()=> {
 
-  const db = firebase.firestore();
-  const docRef = db.collection("sodimac").doc("ArQYrzeC1yVXp1z24xTt");
-  docRef.get().then(function(doc) {
-    console.log("documento de firebase", doc.data()) 
-  }).catch(function(error) {
-    console.log("Error getting document:", error);
-  });
-  
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <React.Fragment>
         <Redirect
             exact
