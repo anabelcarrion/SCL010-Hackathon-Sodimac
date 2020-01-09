@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
 
-
 //importando las vistas
 import Login from './views/Login';
 import SignIn from './views/SignIn';

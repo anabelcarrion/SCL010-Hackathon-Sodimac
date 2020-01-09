@@ -7,25 +7,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* body {
-  background-color: #fff;
-}
-
-html {
-  width: auto;
-  height: 85%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
 .logoSodimac {
     width: 50%;
     margin: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80%;
+    margin-top: 70%;
 }
 
 .stage {

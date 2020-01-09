@@ -1,14 +1,15 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './Login.css'
-
+import Isotipo from '../img/isotiposodimac.png'
 
 const Login = () => {
     
     return (
         <div className="Login">
             <div className="titleLogin">
-                <h1>¡Bienvenido!</h1>
+            <img src= { Isotipo } alt="isotipoSodimac" className="isotipoSodimac"></img>
+                <h1>Bienvenido a Sodimac</h1>
             </div>
                 <form>
                     <input placeholder="correo electronico"></input>

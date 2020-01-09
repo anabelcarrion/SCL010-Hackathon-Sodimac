@@ -5,18 +5,20 @@ import './Home.css';
 import Login from '../views/Login';
 
 const Home = () => {
-
-   
     const [fadeIn, setFadeIn] = useState(true);
-    const toggle = () => setFadeIn(!fadeIn);
-    
     const [loading, setLoading] = useState(true);
 
-    setTimeout( () => {
-        setFadeIn(false);
-        setLoading(false);
-    },3200);
-
+    if (loading,fadeIn) { 
+        setTimeout( () => {
+            setFadeIn(false);
+        },2000); 
+    } 
+    else {
+        setTimeout( () => {
+            setLoading(false);
+        },500); 
+    };
+    
     return (
         <div className="home">
             { loading
@@ -24,7 +26,6 @@ const Home = () => {
                     <Container>
                 <Fade in={fadeIn} tag="h5" className="mt-3">
                         <HomeOver />
-                        <Button color="primary" onClick={toggle}>Toggle Fade</Button>
                 </Fade>
                     </Container>
                 :

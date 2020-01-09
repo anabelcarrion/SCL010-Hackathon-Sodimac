@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-
 import CarouselOfImages from '../components/CarouselOfImages';
 import Cards from '../components/Cards';
 import FooterNav from '../components/FooterNav';
