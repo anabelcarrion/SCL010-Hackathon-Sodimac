@@ -1,23 +1,51 @@
 import React from 'react';
-import Home from './containers/Home';
+import './App.css';
+import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
 import firebase from './config/firebase'
 
-function App() {
+//importando las vistas
+import Login from './views/Login';
+import SignIn from './views/SignIn';
+import PrincipalPage from './views/PrincipalPage';
+import Home from './containers/Home';
+import PasswordLost from './views/PasswordLost';
 
-    const db = firebase.firestore();
-    const docRef = db.collection("sodimac").doc("ArQYrzeC1yVXp1z24xTt");
-    docRef.get().then(function(doc) {
-      console.log("documento de firebase", doc.data()) 
-    }).catch(function(error) {
-      console.log("Error getting document:", error);
-    });
-    
-    return (
-      <div className="App">
-        <Home />
-        </div>
-    );
-  }
+const App=()=> {
 
-
+  const db = firebase.firestore();
+  const docRef = db.collection("sodimac").doc("ArQYrzeC1yVXp1z24xTt");
+  docRef.get().then(function(doc) {
+    console.log("documento de firebase", doc.data()) 
+  }).catch(function(error) {
+    console.log("Error getting document:", error);
+  });
+  
+  return (
+    <Router>
+      <React.Fragment>
+        <Redirect
+            exact
+            from="/"
+            to="/Home" />
+          <Switch>
+            <Route
+              path="/Home"
+              component={Home} />
+              <Route
+              path="/Login"
+              component={Login} />
+              <Route
+              path="/SignIn"
+              component={SignIn} />
+              <Route
+              path="/PasswordLost"
+              component={PasswordLost} />
+              <Route
+              path="/PrincipalPage"
+              component={PrincipalPage} />
+          </Switch>
+        </React.Fragment>
+      </Router>
+  );
+}
 export default App;

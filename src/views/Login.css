@@ -28,6 +28,7 @@ button.btnLogin {
     padding: 10px;
     outline: none;
     margin-top: 10%;
+    width: -webkit-fill-available;
 }
 
 button.btnSignIn {
@@ -38,9 +39,18 @@ button.btnSignIn {
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     padding: 10px;
     outline: none;
+    width: -webkit-fill-available;
 }
 
 input {
     width: -webkit-fill-available;
 }
 
+.passwordLink {
+    text-align: center;
+}
+
+.omitirLink {
+    text-align: center;
+    margin-top: 45%;
+}

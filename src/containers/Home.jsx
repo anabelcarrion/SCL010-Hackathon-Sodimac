@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import HomeOver from '../components/HomeOver';
-import { Container, Fade, Button} from 'reactstrap';
+import { Container, Fade, Button } from 'reactstrap';
 import './Home.css';
 import Login from '../views/Login';
 
-const Home = (props) => {
+const Home = () => {
 
    
     const [fadeIn, setFadeIn] = useState(true);
@@ -18,7 +18,7 @@ const Home = (props) => {
     },3200);
 
     return (
-        <div className="home col-md-12">
+        <div className="home">
             { loading
                 ?
                     <Container>
@@ -28,9 +28,7 @@ const Home = (props) => {
                 </Fade>
                     </Container>
                 :
-                    <div className="options">
-                        <Login />
-                    </div>
+                    <Login/>
             }
         </div>
     );
