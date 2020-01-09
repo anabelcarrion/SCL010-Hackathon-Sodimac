@@ -6,8 +6,8 @@
 
 .titleLogin {
     position: static;
-    margin-bottom: 35%;
-    margin-top: 50%;
+    margin-bottom: 10%;
+    margin-top: 60%;
     margin-left: -15%;
 }
 
@@ -15,8 +15,8 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: #2363B2;
     text-align: center;
-    position: absolute;    
     margin-left: 10%;
+    -webkit-text-stroke-width: thin;
 }
 
 button.btnLogin {
@@ -27,6 +27,8 @@ button.btnLogin {
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     padding: 10px;
     outline: none;
+    margin-top: 10%;
+    width: -webkit-fill-available;
 }
 
 button.btnSignIn {
@@ -37,6 +39,7 @@ button.btnSignIn {
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     padding: 10px;
     outline: none;
+    width: -webkit-fill-available;
 }
 
 input {
@@ -44,3 +47,11 @@ input {
     margin: 1px
 }
 
+.passwordLink {
+    text-align: center;
+}
+
+.omitirLink {
+    text-align: center;
+    margin-top: 45%;
+}
