@@ -1,68 +1,64 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![enter image description here](https://lh3.googleusercontent.com/UybtIBQ4H7z_LPK3Y--ZR1wU4sN673onWqzcbMC_NJszZ6JwaUkC1YNt2sltUPIVY37ftzPGXSZdpA=s1400)
 
-## Available Scripts
+# HACKATON SODIMAC
 
-In the project directory, you can run:
 
-### `npm start`
+# Equipo de trabajo
+Para resolver este desafío nuestro equipo se dividió en dos perfiles: _Front-End-Developers y UX Designer_de la 10° Generación de Laboratoria.
+-   Aymara Durán (UX)    
+-   Daniela Quintana (FE)    
+-   Estefanía Romero-Cors (FE)    
+-   Anabel Carrión (FE)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Equipo Tesla: _resumen del proyecto_.       
+Como equipo decidimos enfocar nuestros esfuerzos en mejorar la Experiencia de Compra en la tiendas físicas de Sodimac a través de su aplicación móvil.
 
-### `npm test`
+En base a nuestra investigación descubrimos que los usuarios dedican mucho tiempo buscando un producto o encontrando un vendedor que los oriente dentro de la tienda. Este tiempo extra genera frustración e incertidumbre en los usuarios e impide su fidelización, con ello la posibilidad de generar compras extras.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Trabajamos en añadir rutas hacia los productos de la tienda, estas se generarán dentro de app de Sodimac, basadas en la ubicación geográfica de la tienda y una ubicación referencial del cliente en la sucursal.
 
-### `npm run build`
+Además le daremos un nuevo “look and feel” a la aplicación para incrementar su usabilidad. Incluiremos un proceso de personalización de perfiles dentro de la aplicación, agregando la elección de preferencias de compras y/o sugerencias según la data de compras anteriores de los usuarios.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+También fomentaremos su uso por medio de la acumulación de puntos CMR al generar un login. Evitando pedir reiterativamente datos al usuarios, como ocurre actualmente.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Creemos que Sodimac cuenta con un gran producto, el cual tiene excelentes oportunidades de mejora y queremos hacer de ella una herramienta fundamental a la hora de realizar compras.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+###  Quiénes son los principales usuarios de producto.
+Todos los clientes (y posibles clientes) de Sodimac que cuenten con un smartphone que permitan la instalación de la app.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Cuál es el objetivo del producto.
+Disminuir los tiempos de compra de los usuarios y así mejorar su experiencia, fomentando nuevas compras y sentando las bases para la instalación de nuevas tecnologías por parte de Sodimac como son los Beatcons, y el marketing en tiendo real y personalizado al cliente.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Qué problema resuelve.
+Los tiempos de compra, al no encontrar los productos en tienda, y más aun cuando se da referencia del pasillo donde se encuentra el producto, pero aún así el cliente no da fácilmente con el pasillo o ruta hacia él.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Consideraciones generales del proyecto
 
-## Learn More
+-   Este proyecto se resolvió en un Squad de 3 personas.
+- Sodimac nos entrego el desafío.
+-   El tiempo para completar el reto fue de 4 días.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+# Prototipo
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Durante el proceso de diseño se trabajo en diferentes etapas, y en el transcurso de todas ellas se recibió _"feedback"_ constantemente. Tanto de posibles usuarios, como de otros _"squad's"_ de trabajo en Laboratoria. Se trabajo codo a codo en el equipo siempre proponiendo mejoras y buscando soluciones a los desafíos de diseño.
 
-### Making a Progressive Web App
+El proceso de diseño fue pensado y creado en función a la experiencia del usuario (UX), nos propusimos crear un producto amigable, empatico, personalizado y que se diferenciará de la competencia.  Que fuera una plataforma simple y limpia.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Puedes ver el prototipo de alta fidelidad en Figma *[aquí.](https://www.figma.com/proto/OxcHxoF4oCMUxL247XUrl0/Sodimac-Hackathon?node-id=5:0&scaling=scale-down)*
 
-### Advanced Configuration
+Puedes ver el deploy del proyecto [aquí.](https://zotapianola.github.io/SCL010-Hackathon-Sodimac/Home)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# Tecnologías utilizadas
+-   React.    
+-   Bootstrap.    
+-  Firebase.    
+-   Figma.
+- Adobe After Effects.
+- GitHub
