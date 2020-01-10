@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import HomeOver from '../components/HomeOver';
-import { Container, Fade, Button } from 'reactstrap';
+import { Container, Fade } from 'reactstrap';
 import './Home.css';
 import Login from '../views/Login';
 

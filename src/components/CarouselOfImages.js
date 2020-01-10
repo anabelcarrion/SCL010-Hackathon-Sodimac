@@ -5,14 +5,15 @@ import {Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCap
 
 const items = [
   {
-    src:"https://firebasestorage.googleapis.com/v0/b/sodimac-fe7fd.appspot.com/o/promo.png?alt=media&token=c2768450-89b9-45db-841f-ec08be36f88f"
-  },
-  {
-    src: 'https://firebasestorage.googleapis.com/v0/b/sodimac-fe7fd.appspot.com/o/promo2.png?alt=media&token=5de0b2b3-cda9-4afa-8544-be7dfe84f868',
+    src: 'https://firebasestorage.googleapis.com/v0/b/sodimac-fe7fd.appspot.com/o/imagen.png?alt=media&token=d80f7931-242f-4ed8-ac17-3feb2d8f969f',
    
   },
   {
-    src: 'https://firebasestorage.googleapis.com/v0/b/sodimac-fe7fd.appspot.com/o/promo1.png?alt=media&token=311ba655-efcf-4021-aeaa-e13263bf9ca3',
+    src:'https://firebasestorage.googleapis.com/v0/b/sodimac-fe7fd.appspot.com/o/imagen1.png?alt=media&token=27185f25-a556-4c76-9208-d804a1b42e52',
+   
+  },
+  {
+    src: 'https://firebasestorage.googleapis.com/v0/b/sodimac-fe7fd.appspot.com/o/imagen2.png?alt=media&token=c3e31d31-020a-43c6-8da4-d96cf8f28113',
     
   }
 ];
