@@ -3,7 +3,7 @@ import firebase from '../config/firebase'
 import './Cards.css';
 import Map from './Map';
 
-import {Card, CardImg, CardBody,CardTitle, CardSubtitle} from 'reactstrap';
+import {Card,Container, Row, Col, CardImg, CardBody,CardTitle, CardSubtitle} from 'reactstrap';
 
 const db = firebase.firestore();
 const data = db.collection('sodimac');
@@ -51,20 +51,26 @@ const Cards = (props) => {
    
       
   return productsList.length===0 ? <h1>Cargando Productos ...</h1> : (
-    <div className= "cards">
-        {productsList.map(product => (
+   <Container>
+     <Row>
+        {productsList.map(product => ( 
+          <Col md={6}>
       <Card>
-        <CardImg top width="100%" src={product.imagen} alt="Card image cap" />
+        <CardImg top width="100%" src={product.imagen}  />
         <CardBody>
-          <CardTitle>Nombre {product.nombre}</CardTitle>
-          <CardTitle>Precio {product.precio}</CardTitle>
-          <CardSubtitle>SKU {product.SKU}</CardSubtitle>
-          <CardSubtitle>Pasillo {product.pasillo}</CardSubtitle>
+          <CardTitle>{product.nombre}</CardTitle>
+          <CardTitle>Precio:{product.precio}</CardTitle>
+          <CardSubtitle>SKU: {product.SKU}</CardSubtitle>
+          <CardSubtitle>Pasillo: {product.pasillo}</CardSubtitle>
           <Map destination={product.pasillo}/>
         </CardBody>
       </Card>
+      <br/>
+      </Col>   
         ))}
-    </div>
+  
+    </Row>
+    </Container>
   );
 };
 

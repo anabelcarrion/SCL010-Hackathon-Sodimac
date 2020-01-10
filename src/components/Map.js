@@ -71,7 +71,7 @@ const Map = (props) => {
                 })
           }}>Mostrar Ruta</Button>{' '}
           <br/>
-        <CardImg top width="100%" src={route} alt="Card image cap"/>
+        <CardImg top width="100%" src={route}/>
         </ModalBody>
         <ModalFooter> 
           <Button color="secondary" onClick={toggle} >Cerrar</Button>
