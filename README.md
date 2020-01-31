@@ -1,17 +1,8 @@
 ![enter image description here](https://lh3.googleusercontent.com/UybtIBQ4H7z_LPK3Y--ZR1wU4sN673onWqzcbMC_NJszZ6JwaUkC1YNt2sltUPIVY37ftzPGXSZdpA=s1400)
 
-# HACKATON SODIMAC
+# PROYECTO SODIMAC
 
-
-# Equipo de trabajo
-Para resolver este desafío nuestro equipo se dividió en dos perfiles: _Front-End-Developers y UX Designer_de la 10° Generación de Laboratoria.
--   Aymara Durán (UX)    
--   Daniela Quintana (FE)    
--   Estefanía Romero-Cors (FE)    
--   Anabel Carrión (FE)
-
-
-## Equipo Tesla: _resumen del proyecto_.       
+## Resumen del proyecto_.       
 Como equipo decidimos enfocar nuestros esfuerzos en mejorar la Experiencia de Compra en la tiendas físicas de Sodimac a través de su aplicación móvil.
 
 En base a nuestra investigación descubrimos que los usuarios dedican mucho tiempo buscando un producto o encontrando un vendedor que los oriente dentro de la tienda. Este tiempo extra genera frustración e incertidumbre en los usuarios e impide su fidelización, con ello la posibilidad de generar compras extras.
@@ -34,18 +25,13 @@ Disminuir los tiempos de compra de los usuarios y así mejorar su experiencia, f
 ### Qué problema resuelve.
 Los tiempos de compra, al no encontrar los productos en tienda, y más aun cuando se da referencia del pasillo donde se encuentra el producto, pero aún así el cliente no da fácilmente con el pasillo o ruta hacia él.
 
-
 ## Consideraciones generales del proyecto
 
 -   Este proyecto se resolvió en un Squad de 3 personas.
 - Sodimac nos entrego el desafío.
 -   El tiempo para completar el reto fue de 4 días.
 
-
-
-
 # Prototipo
-
 
 Durante el proceso de diseño se trabajo en diferentes etapas, y en el transcurso de todas ellas se recibió _"feedback"_ constantemente. Tanto de posibles usuarios, como de otros _"squad's"_ de trabajo en Laboratoria. Se trabajo codo a codo en el equipo siempre proponiendo mejoras y buscando soluciones a los desafíos de diseño.
 
@@ -62,3 +48,10 @@ Puedes ver el deploy del proyecto [aquí.](https://zotapianola.github.io/SCL010-
 -   Figma.
 - Adobe After Effects.
 - GitHub
+
+# Equipo de trabajo
+Para resolver este desafío nuestro equipo se dividió en dos perfiles: _Front-End-Developers y UX Designer_de la 10° Generación de Laboratoria.
+-   Aymara Durán (UX)  
+-   Anabel Carrión (FE)  
+-   Daniela Quintana (FE)    
+-   Estefanía Romero-Cors (FE)    
